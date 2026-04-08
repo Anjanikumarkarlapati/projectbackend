@@ -1,0 +1,60 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.tribal:tribal-api >------------------------
+[INFO] Building Tribal API 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ tribal-api ---
+[INFO] Deleting C:\Users\anjan\Downloads\tribal-springboot\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribal-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ tribal-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 39 source files with javac [debug parameters release 21] to target\classes
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Cart.java:[31,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Order.java:[32,25] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Order.java:[38,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Artisan.java:[34,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Artisan.java:[37,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Artisan.java:[40,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Artisan.java:[43,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/User.java:[32,18] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Product.java:[48,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Product.java:[52,24] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Product.java:[55,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[WARNING] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/model/Product.java:[58,21] @Builder will ignore the initializing expression entirely. If you want the initializing expression to serve as default, add @Builder.Default. If it is not supposed to be settable during building, make the field final.
+[INFO] 12 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[53,14] cannot find symbol
+  symbol:   method setIsApproved(boolean)
+  location: variable a of type com.tribal.model.Artisan
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.238 s
+[INFO] Finished at: 2026-04-06T10:32:59+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project tribal-api: Compilation failure
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[53,14] cannot find symbol
+[ERROR]   symbol:   method setIsApproved(boolean)
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
