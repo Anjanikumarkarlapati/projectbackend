@@ -1,0 +1,638 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.tribal:tribal-api >------------------------
+[INFO] Building Tribal API 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.4.1:clean (default-clean) @ tribal-api ---
+[INFO] Deleting C:\Users\anjan\Downloads\tribal-springboot\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tribal-api ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ tribal-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 39 source files with javac [debug parameters release 25] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/config/SecurityConfig.java:[29,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[53,14] cannot find symbol
+  symbol:   method setIsApproved(boolean)
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[55,38] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.Long,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[56,18] incompatible types: org.springframework.http.ResponseEntity<java.lang.Object> cannot be converted to org.springframework.http.ResponseEntity<com.tribal.dto.MessageResponse>
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[64,71] cannot find symbol
+  symbol:   method getId()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[66,41] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.ProductDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[80,26] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.ArtisanDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[81,22] cannot find symbol
+  symbol:   method getId()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[82,24] cannot find symbol
+  symbol:   method getUser()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[83,25] cannot find symbol
+  symbol:   method getUser()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[84,25] cannot find symbol
+  symbol:   method getTribe()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[85,25] cannot find symbol
+  symbol:   method getState()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[86,29] cannot find symbol
+  symbol:   method getSpecialty()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[87,23] cannot find symbol
+  symbol:   method getBio()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[88,30] cannot find symbol
+  symbol:   method getIsApproved()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[89,33] cannot find symbol
+  symbol:   method getTotalProducts()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[90,30] cannot find symbol
+  symbol:   method getTotalSales()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[91,29] cannot find symbol
+  symbol:   method getAvgRating()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[92,30] cannot find symbol
+  symbol:   method getProfileImg()
+  location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[33,60] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[34,69] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.CartItemDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[35,22] cannot find symbol
+  symbol:   method getId()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[36,29] cannot find symbol
+  symbol:   method getProduct()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[37,24] cannot find symbol
+  symbol:   method getProduct()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[38,25] cannot find symbol
+  symbol:   method getProduct()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[39,26] cannot find symbol
+  symbol:   method getProduct()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[40,29] cannot find symbol
+  symbol:   method getProduct()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[41,23] cannot find symbol
+  symbol:   method getQty()
+  location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[34,33] incompatible types: inference variable T has incompatible bounds
+    equality constraints: com.tribal.dto.CartItemDto
+    lower bounds: java.lang.Object
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[50,57] cannot find symbol
+  symbol:   method getProductId()
+  location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[53,53] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[53,70] cannot find symbol
+  symbol:   method getId()
+  location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[56,68] cannot find symbol
+  symbol:   method getQty()
+  location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[59,55] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[62,41] cannot find symbol
+  symbol:   method getQty()
+  location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[66,34] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[75,60] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[77,28] cannot find symbol
+  symbol:   method getQty()
+  location: variable req of type com.tribal.dto.UpdateCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[79,50] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[81,33] cannot find symbol
+  symbol:   method getQty()
+  location: variable req of type com.tribal.dto.UpdateCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[83,46] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[90,43] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[91,34] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[111,87] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[120,16] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[120,46] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[122,27] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,<nulltype>,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[125,31] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[132,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[136,37] cannot find symbol
+  symbol:   method getShippingAddress()
+  location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[142,57] cannot find symbol
+  symbol:   method getCartItems()
+  location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[143,62] cannot find symbol
+  symbol:   method getId()
+  location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[144,89] cannot find symbol
+  symbol:   method getId()
+  location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[145,62] cannot find symbol
+  symbol:   method getArtisanId()
+  location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[148,37] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.model.OrderItem
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[152,30] cannot find symbol
+  symbol:   method getQty()
+  location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[153,36] cannot find symbol
+  symbol:   method getPrice()
+  location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[158,43] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[161,78] cannot find symbol
+  symbol:   method getId()
+  location: variable saved of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[170,54] cannot find symbol
+  symbol:   method getStatus()
+  location: variable req of type com.tribal.dto.UpdateOrderStatusRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[172,38] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.Long,<nulltype>
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[173,18] incompatible types: org.springframework.http.ResponseEntity<java.lang.Object> cannot be converted to org.springframework.http.ResponseEntity<com.tribal.dto.MessageResponse>
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[179,37] cannot find symbol
+  symbol:   method getItems()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[180,18] cannot find symbol
+  symbol:   method getItems()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[180,60] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.OrderItemDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[188,24] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.OrderDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[189,22] cannot find symbol
+  symbol:   method getId()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[190,31] cannot find symbol
+  symbol:   method getOrderNumber()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[191,30] cannot find symbol
+  symbol:   method getTotalPrice()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[192,26] cannot find symbol
+  symbol:   method getStatus()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[193,35] cannot find symbol
+  symbol:   method getShippingAddress()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[194,29] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[217,53] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.dto.ReviewDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[218,38] cannot find symbol
+  symbol:   method getId()
+  location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[219,40] cannot find symbol
+  symbol:   method getCustomer()
+  location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[220,42] cannot find symbol
+  symbol:   method getRating()
+  location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[221,43] cannot find symbol
+  symbol:   method getComment()
+  location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[222,45] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[215,33] incompatible types: inference variable T has incompatible bounds
+    equality constraints: com.tribal.dto.ReviewDto
+    lower bounds: java.lang.Object
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[233,57] cannot find symbol
+  symbol:   method getProductId()
+  location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[236,26] cannot find symbol
+  symbol:   method getOrderId()
+  location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[237,47] cannot find symbol
+  symbol:   method getOrderId()
+  location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[240,31] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[244,28] cannot find symbol
+  symbol:   method getRating()
+  location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[245,29] cannot find symbol
+  symbol:   method getComment()
+  location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[251,70] cannot find symbol
+  symbol:   method getId()
+  location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[253,20] cannot find symbol
+  symbol:   method setAvgStars(java.math.BigDecimal)
+  location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[258,65] cannot find symbol
+  symbol:   method getId()
+  location: variable saved of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[57,57] cannot find symbol
+  symbol:   method getArtisanId()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[60,34] cannot find symbol
+  symbol:   method builder()
+  location: class com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[62,26] cannot find symbol
+  symbol:   method getName()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[63,33] cannot find symbol
+  symbol:   method getDescription()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[64,27] cannot find symbol
+  symbol:   method getPrice()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[65,30] cannot find symbol
+  symbol:   method getOldPrice()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[66,55] cannot find symbol
+  symbol:   method getCategory()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[67,27] cannot find symbol
+  symbol:   method getTribe()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[68,27] cannot find symbol
+  symbol:   method getState()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[69,28] cannot find symbol
+  symbol:   method getImgUrl()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[70,27] cannot find symbol
+  symbol:   method getBadge()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[71,27] cannot find symbol
+  symbol:   method getStock()
+  location: variable req of type com.tribal.dto.CreateProductRequest
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.150 s
+[INFO] Finished at: 2026-04-06T10:07:46+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project tribal-api: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/config/SecurityConfig.java:[29,33] variable jwtAuthFilter not initialized in the default constructor
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[53,14] cannot find symbol
+[ERROR]   symbol:   method setIsApproved(boolean)
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[55,38] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.Long,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[56,18] incompatible types: org.springframework.http.ResponseEntity<java.lang.Object> cannot be converted to org.springframework.http.ResponseEntity<com.tribal.dto.MessageResponse>
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[64,71] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[66,41] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.ProductDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[80,26] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.ArtisanDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[81,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[82,24] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[83,25] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[84,25] cannot find symbol
+[ERROR]   symbol:   method getTribe()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[85,25] cannot find symbol
+[ERROR]   symbol:   method getState()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[86,29] cannot find symbol
+[ERROR]   symbol:   method getSpecialty()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[87,23] cannot find symbol
+[ERROR]   symbol:   method getBio()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[88,30] cannot find symbol
+[ERROR]   symbol:   method getIsApproved()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[89,33] cannot find symbol
+[ERROR]   symbol:   method getTotalProducts()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[90,30] cannot find symbol
+[ERROR]   symbol:   method getTotalSales()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[91,29] cannot find symbol
+[ERROR]   symbol:   method getAvgRating()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ArtisanController.java:[92,30] cannot find symbol
+[ERROR]   symbol:   method getProfileImg()
+[ERROR]   location: variable a of type com.tribal.model.Artisan
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[33,60] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[34,69] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.CartItemDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[35,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[36,29] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[37,24] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[38,25] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[39,26] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[40,29] cannot find symbol
+[ERROR]   symbol:   method getProduct()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[41,23] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable c of type com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[34,33] incompatible types: inference variable T has incompatible bounds
+[ERROR]     equality constraints: com.tribal.dto.CartItemDto
+[ERROR]     lower bounds: java.lang.Object
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[50,57] cannot find symbol
+[ERROR]   symbol:   method getProductId()
+[ERROR]   location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[53,53] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[53,70] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[56,68] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[59,55] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.model.Cart
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[62,41] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable req of type com.tribal.dto.AddToCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[66,34] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[75,60] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[77,28] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable req of type com.tribal.dto.UpdateCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[79,50] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[81,33] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable req of type com.tribal.dto.UpdateCartRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[83,46] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[90,43] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[91,34] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[111,87] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[120,16] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[120,46] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[122,27] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,<nulltype>,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[125,31] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[132,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[136,37] cannot find symbol
+[ERROR]   symbol:   method getShippingAddress()
+[ERROR]   location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[142,57] cannot find symbol
+[ERROR]   symbol:   method getCartItems()
+[ERROR]   location: variable req of type com.tribal.dto.CreateOrderRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[143,62] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[144,89] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[145,62] cannot find symbol
+[ERROR]   symbol:   method getArtisanId()
+[ERROR]   location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[148,37] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.model.OrderItem
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[152,30] cannot find symbol
+[ERROR]   symbol:   method getQty()
+[ERROR]   location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[153,36] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable item of type com.tribal.dto.CreateOrderRequest.CartItemInput
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[158,43] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tribal.model.User
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[161,78] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable saved of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[170,54] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable req of type com.tribal.dto.UpdateOrderStatusRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[172,38] constructor MessageResponse in class com.tribal.dto.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.Long,<nulltype>
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[173,18] incompatible types: org.springframework.http.ResponseEntity<java.lang.Object> cannot be converted to org.springframework.http.ResponseEntity<com.tribal.dto.MessageResponse>
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[179,37] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[180,18] cannot find symbol
+[ERROR]   symbol:   method getItems()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[180,60] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.OrderItemDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[188,24] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.OrderDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[189,22] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[190,31] cannot find symbol
+[ERROR]   symbol:   method getOrderNumber()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[191,30] cannot find symbol
+[ERROR]   symbol:   method getTotalPrice()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[192,26] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[193,35] cannot find symbol
+[ERROR]   symbol:   method getShippingAddress()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[194,29] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable o of type com.tribal.model.Order
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[217,53] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.dto.ReviewDto
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[218,38] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[219,40] cannot find symbol
+[ERROR]   symbol:   method getCustomer()
+[ERROR]   location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[220,42] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[221,43] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[222,45] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable r of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[215,33] incompatible types: inference variable T has incompatible bounds
+[ERROR]     equality constraints: com.tribal.dto.ReviewDto
+[ERROR]     lower bounds: java.lang.Object
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[233,57] cannot find symbol
+[ERROR]   symbol:   method getProductId()
+[ERROR]   location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[236,26] cannot find symbol
+[ERROR]   symbol:   method getOrderId()
+[ERROR]   location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[237,47] cannot find symbol
+[ERROR]   symbol:   method getOrderId()
+[ERROR]   location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[240,31] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[244,28] cannot find symbol
+[ERROR]   symbol:   method getRating()
+[ERROR]   location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[245,29] cannot find symbol
+[ERROR]   symbol:   method getComment()
+[ERROR]   location: variable req of type com.tribal.dto.AddReviewRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[251,70] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[253,20] cannot find symbol
+[ERROR]   symbol:   method setAvgStars(java.math.BigDecimal)
+[ERROR]   location: variable product of type com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/Controllers.java:[258,65] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable saved of type com.tribal.model.Review
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[57,57] cannot find symbol
+[ERROR]   symbol:   method getArtisanId()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[60,34] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.tribal.model.Product
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[62,26] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[63,33] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[64,27] cannot find symbol
+[ERROR]   symbol:   method getPrice()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[65,30] cannot find symbol
+[ERROR]   symbol:   method getOldPrice()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[66,55] cannot find symbol
+[ERROR]   symbol:   method getCategory()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[67,27] cannot find symbol
+[ERROR]   symbol:   method getTribe()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[68,27] cannot find symbol
+[ERROR]   symbol:   method getState()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[69,28] cannot find symbol
+[ERROR]   symbol:   method getImgUrl()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[70,27] cannot find symbol
+[ERROR]   symbol:   method getBadge()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] /C:/Users/anjan/Downloads/tribal-springboot/backend/src/main/java/com/tribal/controller/ProductController.java:[71,27] cannot find symbol
+[ERROR]   symbol:   method getStock()
+[ERROR]   location: variable req of type com.tribal.dto.CreateProductRequest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
